@@ -1,0 +1,77 @@
+괴수 퇴치	2	2	0
+황금열쇠	2	2	0
+용궁	2	13	l/Ch/4
+연퀘1	2	3	i/tem1
+낙랑의두루마리	2	8	l/nakrangdone
+진광대왕의영혼찾기	2	3	l/BHell_sukra/0/>2
+명부차사의부탁	2	1	l/BHell_mchasa/0/>1
+무적의마히샤	2	1	k/마히샤/>0
+마하데비의뢰	2	3	l/BHell_mahadevi/0/>2
+아귀대장의부탁	2	1	k/독사귀영혼/>19
+도시대왕의의뢰-스칸다	2	6	l/BHell_scanda/0/=7
+케유리의의뢰	2	2	l/BHell_keuri/0/=3
+낡은족자와해명태자	2	3	l/BHell_hamyoun/0/>2
+지친농부의부탁	2	5	l/BHell_river/0/=6
+염라대왕의보물의뢰	2	2	i/만월의거울'상,i/만월의거울'각,i/만월의거울'치,i/만월의거울'우
+악마와의계약	2	2	k/시따의심장/>0
+라후의부탁	2	2	l/BHell_Lahoo/=3
+지옥맛요리	2	3	l/BHell_cook/0/>4
+악신긴나라	2	3	l/BHell_ginara/0/>3
+뢰진도	2	2	0
+강건부	2	2	0
+용의골무	2	4	0
+33무기 받기	2	2	l/weapon33end
+66무기 받기	2	2	l/weapon66end
+99무기 받기	2	2	l/weapon99end
+참원왕진원관	2	9	l/monkeyfinished
+별주부	2	2	 lt/Rabbit3/1
+용궁정화	2	2	l/Clsh/e
+상어장군무기	2	4	l/SaSpear/e
+복어장군	2	3/	l/Bok/e
+해마장군	2	2	l/Heakill/4
+인어장군	2	2	i/번역된내통문서
+청의태자	2	2	l/Ch/3
+용왕의보물	2	3	l/YongDone/e
+명석부	2	3	l/houseevilend
+차례상재료모으기	2	3	i/잘익은대추/0/>0,i/잘익은밤/0/>0,i/잘익은감/0/>0,i/잘익은배/0/>0
+가마만들기	2	4	i/소나무판자/0/>3,i/새끼줄/0/>1
+제올리기	2	3	l/issu_jadan/>3
+대장군의일기	2	8	l/pyohistory09
+화기삼동충초돈유합	2	5	l/chinahwagi4
+소림비기	2	3	l/chinasolim4
+후 말살	2	2	l/chinahukill2
+불로불사의 영단	2	4	l/chinabulnobulsa3
+진황보검	2	7	l/chinajinhwang8
+산소소탕작전	2	6	l/sansokill6
+청심사주	2	3	l/snakesul3
+황비연	2	4	l/hwangend
+지남침	2	4	l/zinamchimend
+삼전신보탕	2	3	l/samjunsinend
+파마의피리	2	4	l/pamaend
+봉마병	2	3	l/ghostbonginend
+도삭산 100층	2	2	l/d100th3
+도삭산 200층	2	3	l/d200thend
+도삭산 800층	2	4	l/d800th04
+도삭산 900층	2	2	l/d900th03
+개과천선	2	7	l/BHell_Hariti
+지옥석탄을 사수하라	2	7	l/BHell_Sangsang
+천 개의 손	2	4	l/BHell_Caluta
+악마의 저녁식사	2	4	l/BHell_Gilutimuca
+거대한 물소	2	7	l/BHell_Mahisa
+독사지옥	2	5	l/BHell_Ananta
+전쟁을 막아라	2	3	l/BHell_Nachal
+뿌리친 유혹	2	2	l/BHell_Surupanacha
+정령인형	2	3	l/travel01
+명수사관	2	13	l/beingdetector
+요술놀이구슬	2	4	l/ps2000
+선장의 일기	2	2	l/captainstart
+영웅의 무기	2	2	l/heroweapon0
+정령의 옷	2	3	l/elemental0
+천부연	2	33	l/chodopass
+바보 온달	2	16	l/fool_ondal_end
+고양이의원한	2	6	l/CatGrudge
+돼지의야욕	2	2	l/PigGrudge
+가위사나이	2	5	l/ScissorsHand
+극지방의얼음정령	2	3	l/IceElement
+천문학자의의뢰	2	2	l/Astornomy
+십이지신의이야기	2	34	l/12Animals

@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="소스 파일\Common">
+      <UniqueIdentifier>{ea415b25-c480-45ad-9137-fe5c451d3062}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Common\DataStructures">
+      <UniqueIdentifier>{8e8d498c-55b8-47cd-9067-22a0d22e2d31}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="list.c">
+      <Filter>소스 파일\Common\DataStructures</Filter>
+    </ClCompile>
+    <ClCompile Include="main.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="cryption.c">
+      <Filter>소스 파일\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="debug.c">
+      <Filter>소스 파일\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="socket.c">
+      <Filter>소스 파일\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="hash_table.c">
+      <Filter>소스 파일\Common\DataStructures</Filter>
+    </ClCompile>
+    <ClCompile Include="login.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="mem.c">
+      <Filter>소스 파일\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="scriptfunc.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="script.c">
+      <Filter>소스 파일\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="minheap.c">
+      <Filter>소스 파일\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="timer.c">
+      <Filter>소스 파일\Common</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="list.h">
+      <Filter>소스 파일\Common\DataStructures</Filter>
+    </ClInclude>
+    <ClInclude Include="cryption.h">
+      <Filter>소스 파일\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="debug.h">
+      <Filter>소스 파일\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="socket.h">
+      <Filter>소스 파일\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="hashtable.h">
+      <Filter>소스 파일\Common\DataStructures</Filter>
+    </ClInclude>
+    <ClInclude Include="login.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="mem.h">
+      <Filter>소스 파일\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="scriptfunc.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="script.h">
+      <Filter>소스 파일\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="minheap.h">
+      <Filter>소스 파일\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="timer.h">
+      <Filter>소스 파일\Common</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

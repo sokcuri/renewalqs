@@ -1,0 +1,8 @@
+;npc	id	이름	이미지	컬러	스크립트
+
+npc	1	주모	14	0	npc_jumo
+npc	2	낙랑	3	0	npc_beginner
+npc	3	예백	39	0	npc_warrior
+npc	4	마서	38	0	npc_thief
+npc	5	처연	40	0	npc_magician
+npc	6	선후	87	0	npc_healer

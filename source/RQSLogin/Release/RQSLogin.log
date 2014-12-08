@@ -1,0 +1,17 @@
+﻿빌드 시작: 2014-11-16 오후 4:53:30
+     1>3 노드의 "C:\Users\승현\documents\visual studio 2010\Projects\RenewalQS\RQSLogin\RQSLogin.vcxproj" 프로젝트(build 대상)입니다.
+     1>InitializeBuildStatus:
+         "Release\RQSLogin.unsuccessfulbuild"에 연결(touching)하고 있습니다.
+       ClCompile:
+         모든 출력이 최신 상태입니다.
+       Link:
+         모든 출력이 최신 상태입니다.
+         RQSLogin.vcxproj -> C:\Users\승현\documents\visual studio 2010\Projects\RenewalQS\Release\RQSLogin.exe
+       FinalizeBuildStatus:
+         "Release\RQSLogin.unsuccessfulbuild" 파일을 삭제하고 있습니다.
+         "Release\RQSLogin.lastbuildstate"에 연결(touching)하고 있습니다.
+     1>"C:\Users\승현\documents\visual studio 2010\Projects\RenewalQS\RQSLogin\RQSLogin.vcxproj" 프로젝트를 빌드했습니다(build 대상).
+
+빌드했습니다.
+
+경과 시간: 00:00:00.10

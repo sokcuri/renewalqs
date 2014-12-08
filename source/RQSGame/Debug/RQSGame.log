@@ -1,0 +1,63 @@
+﻿빌드 시작: 2014-11-25 오전 3:23:10
+     1>2 노드의 "C:\Users\승현\documents\visual studio 2010\Projects\RenewalQS\RQSGame\RQSGame.vcxproj" 프로젝트(build 대상)입니다.
+     1>InitializeBuildStatus:
+         "AlwaysCreate"이(가) 지정되었기 때문에 "Debug\RQSGame.unsuccessfulbuild"을(를) 만들고 있습니다.
+       ClCompile:
+         c:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt script.c
+         script.c
+     1>c:\users\승현\documents\visual studio 2010\projects\renewalqs\rqsgame\script.c(84): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(371) : 'sprintf' 선언을 참조하십시오.
+     1>c:\users\승현\documents\visual studio 2010\projects\renewalqs\rqsgame\script.c(388): warning C4002: '_crt_va_end' 매크로의 실제 매개 변수가 너무 많습니다.
+     1>c:\users\승현\documents\visual studio 2010\projects\renewalqs\rqsgame\script.c(356): warning C4101: 'result' :참조되지 않은 지역 변수입니다.
+     1>c:\users\승현\documents\visual studio 2010\projects\renewalqs\rqsgame\script.c(422): warning C4002: '_crt_va_end' 매크로의 실제 매개 변수가 너무 많습니다.
+     1>c:\users\승현\documents\visual studio 2010\projects\renewalqs\rqsgame\script.c(393): warning C4101: 'result' :참조되지 않은 지역 변수입니다.
+     1>c:\users\승현\documents\visual studio 2010\projects\renewalqs\rqsgame\script.c(461): warning C4002: '_crt_va_end' 매크로의 실제 매개 변수가 너무 많습니다.
+     1>c:\users\승현\documents\visual studio 2010\projects\renewalqs\rqsgame\script.c(427): warning C4101: 'result' :참조되지 않은 지역 변수입니다.
+       ManifestResourceCompile:
+         모든 출력이 최신 상태입니다.
+       Link:
+         c:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\승현\documents\visual studio 2010\Projects\RenewalQS\Debug\RQSGame.exe" /INCREMENTAL /NOLOGO libmysql.lib lua51.lib ws2_32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\RQSGame.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\승현\documents\visual studio 2010\Projects\RenewalQS\Debug\RQSGame.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\승현\documents\visual studio 2010\Projects\RenewalQS\Debug\RQSGame.lib" /MACHINE:X86 Debug\RQSGame.exe.embed.manifest.res
+         Debug\clan.obj
+         Debug\cryption.obj
+         Debug\debug.obj
+         Debug\game.obj
+         Debug\group.obj
+         Debug\hash_table.obj
+         Debug\minheap.obj
+         Debug\item.obj
+         Debug\list.obj
+         Debug\login.obj
+         Debug\main.obj
+         Debug\map.obj
+         Debug\mem.obj
+         Debug\mob.obj
+         Debug\npc.obj
+         Debug\object.obj
+         Debug\pc.obj
+         Debug\pet.obj
+         Debug\script.obj
+         Debug\scriptfunc.obj
+         Debug\sformat.obj
+         Debug\socket.obj
+         Debug\magic.obj
+         Debug\sql.obj
+         Debug\timer.obj
+         Debug\trade.obj
+         Debug\userdata.obj
+         Debug\userimg.obj
+         Debug\userobject.obj
+         Debug\world.obj
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\RQSGame.exe.embed.manifest" /manifest Debug\RQSGame.exe.intermediate.manifest
+         모든 출력이 최신 상태입니다.
+       LinkEmbedManifest:
+         모든 출력이 최신 상태입니다.
+         RQSGame.vcxproj -> C:\Users\승현\documents\visual studio 2010\Projects\RenewalQS\Debug\RQSGame.exe
+       FinalizeBuildStatus:
+         "Debug\RQSGame.unsuccessfulbuild" 파일을 삭제하고 있습니다.
+         "Debug\RQSGame.lastbuildstate"에 연결(touching)하고 있습니다.
+     1>"C:\Users\승현\documents\visual studio 2010\Projects\RenewalQS\RQSGame\RQSGame.vcxproj" 프로젝트를 빌드했습니다(build 대상).
+
+빌드했습니다.
+
+경과 시간: 00:00:03.53

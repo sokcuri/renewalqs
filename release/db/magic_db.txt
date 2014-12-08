@@ -1,0 +1,63 @@
+;magic	id	name		type	message		script		args	...
+$def	자동	magic	$1	$2	5	-	$3
+$def	타겟	magic	$1	$2	2	대상은?	$3
+$def	입력	magic	$1	$2	1	$3	$4
+
+$def	신수마법	magic	$1	$2	2	대상은?		_magic_target	iiiii	$3	$4	$5	$6	$7
+$def	저주마법	magic	$1	$2	2	대상은?		_magic_curses	iiiiii	$3	$4	$5	$6	$7	$8
+
+자동	1	회복		magic_healing
+자동	2	쌔게때리기	magic_attack
+자동	3	공력증강	magic_mp
+타겟	4	헬파이어	magic_hellfire
+타겟	5	보호		magic_protect
+입력	7	비영사천문	동,서,남,북(1:동,2:서,3:남,4:북) ?	magic_biyoung
+입력	8	성황령		(좌,우)?	magic_sunghwang
+자동	6	누리의기원	magic_nuriheal
+입력	9	사자후술사	할 말은?	magic_loudsay
+입력	10	사자후전사	할 말은?	magic_loudsay
+입력	11	사자후도사	할 말은?	magic_loudsay
+입력	12	사자후도적	할 말은?	magic_loudsay
+입력	13	사자후궁사	할 말은?	magic_loudsay
+타겟	14	불피우기		magic_magician_fire
+타겟	15	얼리기		magic_magician_ice
+타겟	16	뇌격		magic_magician_thunder
+타겟	17	풍격		magic_magician_wind
+타겟	18	폭격		magic_magician_bomb
+자동	19	명상		magic_collectmp
+;신수마법	id	이름	이펙트		사운드		데미지		체력		마력
+신수마법	20	화염주	45		40		420		0		120
+신수마법	21	화영열주	46		41		640		0		180
+신수마법	22	화열참주	47	42		880		0		240
+신수마법	23	진화열참주	48	43		1200		0		300
+신수마법	24	극진화열참주	48	44		1500		0		360
+신수마법	25	백열주	40		50		420		0		120
+신수마법	26	백령주	41		51		640		0		180
+신수마법	27	백열참주	42	52		880		0		240
+신수마법	28	진백열참주	43	53		1200		0		300
+신수마법	29	극진백열참주	43	54		1500		0		360
+
+신수마법	30	자무주	23		45		420		0		120
+신수마법	31	자령무주	24		46		640		0		180
+신수마법	32	자천무주	25	47		880		0		240
+신수마법	33	진자천무주	26	48		1200		0		300
+신수마법	34	극진자천무주	26	49		1500		0		360
+신수마법	35	뢰진주	27		55		420		0		120
+신수마법	36	뢰격주	28		56		640		0		180
+신수마법	37	뢰격참주	29	57		880		0		240
+신수마법	38	진뢰격참주	30	58		1200		0		300
+신수마법	39	극진뢰격참주	30	59		1500		0		360
+타겟	40	중독		magic_magician_poison
+자동	41	이펙트마법	magic_effect
+자동	42	이펙트마법2	magic_effect2
+;저주마법	id	이름	이펙트		사운드		무장		마력		지속시간(초)	레벨(높을수록 높은순위)
+저주마법	100	저주	13		69		30		30		180		1
+저주마법	101	혼마술	39		79		40		60		180		2
+
+
+fall	저주	저주		_fall_curse	_unfall_curse
+fall	명상	명상		fall_collectmp	-
+;fall	name	fallmessage	스크립트	해제스크립트
+fall	보호	보호		fall_protect	fall_unprotect
+fall	회복	자가회복	fall_heal	-
+fall	중독	중독		fall_poison	-

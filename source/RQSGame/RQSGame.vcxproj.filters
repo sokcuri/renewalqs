@@ -1,0 +1,210 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="소스 파일\Game">
+      <UniqueIdentifier>{1137482b-275b-4c74-b854-acb40a7565d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Game\script">
+      <UniqueIdentifier>{cb853e62-aff2-4118-b65c-952dae417ca5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Core">
+      <UniqueIdentifier>{91f66506-f54c-4575-a24b-fcb720397a37}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Core\DataStructures">
+      <UniqueIdentifier>{baab54da-b586-4f05-bedd-e466734847a7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="hash_table.c">
+      <Filter>소스 파일\Core\DataStructures</Filter>
+    </ClCompile>
+    <ClCompile Include="list.c">
+      <Filter>소스 파일\Core\DataStructures</Filter>
+    </ClCompile>
+    <ClCompile Include="cryption.c">
+      <Filter>소스 파일\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="debug.c">
+      <Filter>소스 파일\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="game.c">
+      <Filter>소스 파일\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="main.c">
+      <Filter>소스 파일\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="login.c">
+      <Filter>소스 파일\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="map.c">
+      <Filter>소스 파일\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="userdata.c">
+      <Filter>소스 파일\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="userimg.c">
+      <Filter>소스 파일\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="object.c">
+      <Filter>소스 파일\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="userobject.c">
+      <Filter>소스 파일\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="socket.c">
+      <Filter>소스 파일\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="world.c">
+      <Filter>소스 파일\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="pc.c">
+      <Filter>소스 파일\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="item.c">
+      <Filter>소스 파일\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="magic.c">
+      <Filter>소스 파일\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="script.c">
+      <Filter>소스 파일\Game\script</Filter>
+    </ClCompile>
+    <ClCompile Include="scriptfunc.c">
+      <Filter>소스 파일\Game\script</Filter>
+    </ClCompile>
+    <ClCompile Include="mem.c">
+      <Filter>소스 파일\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="mob.c">
+      <Filter>소스 파일\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="npc.c">
+      <Filter>소스 파일\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="minheap.c">
+      <Filter>소스 파일\Core\DataStructures</Filter>
+    </ClCompile>
+    <ClCompile Include="timer.c">
+      <Filter>소스 파일\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="pet.c">
+      <Filter>소스 파일\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="sformat.c">
+      <Filter>소스 파일\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="sql.c">
+      <Filter>소스 파일\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="group.c">
+      <Filter>소스 파일\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="trade.c">
+      <Filter>소스 파일\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="clan.c">
+      <Filter>소스 파일\Game</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="list.h">
+      <Filter>소스 파일\Core\DataStructures</Filter>
+    </ClInclude>
+    <ClInclude Include="hashtable.h">
+      <Filter>소스 파일\Core\DataStructures</Filter>
+    </ClInclude>
+    <ClInclude Include="cryption.h">
+      <Filter>소스 파일\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="debug.h">
+      <Filter>소스 파일\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="socket.h">
+      <Filter>소스 파일\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="game.h">
+      <Filter>소스 파일\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="login.h">
+      <Filter>소스 파일\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="object.h">
+      <Filter>소스 파일\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="map.h">
+      <Filter>소스 파일\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="userdata.h">
+      <Filter>소스 파일\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="userimg.h">
+      <Filter>소스 파일\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="userobject.h">
+      <Filter>소스 파일\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="world.h">
+      <Filter>소스 파일\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="pc.h">
+      <Filter>소스 파일\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="item.h">
+      <Filter>소스 파일\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="magic.h">
+      <Filter>소스 파일\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="script.h">
+      <Filter>소스 파일\Game\script</Filter>
+    </ClInclude>
+    <ClInclude Include="scriptfunc.h">
+      <Filter>소스 파일\Game\script</Filter>
+    </ClInclude>
+    <ClInclude Include="mem.h">
+      <Filter>소스 파일\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="mob.h">
+      <Filter>소스 파일\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="npc.h">
+      <Filter>소스 파일\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="minheap.h">
+      <Filter>소스 파일\Core\DataStructures</Filter>
+    </ClInclude>
+    <ClInclude Include="timer.h">
+      <Filter>소스 파일\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="pet.h">
+      <Filter>소스 파일\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="sformat.h">
+      <Filter>소스 파일\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="sql.h">
+      <Filter>소스 파일\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="group.h">
+      <Filter>소스 파일\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="trade.h">
+      <Filter>소스 파일\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="clan.h">
+      <Filter>소스 파일\Game</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

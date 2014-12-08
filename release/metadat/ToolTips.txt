@@ -1,0 +1,157 @@
+default	18	default	default	null	null	null	null	border	0	null	null	null	null	null	-2	left	top	null	50
+1	12	PetInfoDlg	애칭	<애칭>	null	null	center	null	null	78	51	188	15
+2	3	PetInfoDlg	애칭	애칭은 캐시아이템 환수애칭비서를 사용하여 변경 가능.
+3	3	PetInfoDlg	애칭	애칭이 부여돼있을 경우, 화면상에 명칭 대신 애칭 표시.
+4	12	PetInfoDlg	명칭	<명칭>	null	null	center	null	null	78	77	188	15
+5	3	PetInfoDlg	명칭	변경되지 않는 환수 고유의 명칭.
+6	12	PetInfoDlg	명령	<명령>	null	null	center	null	null	12	13	32	14
+7	3	PetInfoDlg	명령	단축키: (.)
+8	12	PetInfoDlg	도움말	<도움말>	null	null	center	null	null	424	12	13	17
+9	3	PetInfoDlg	도움말	상세정보창의 각 부분에 마우스 포인터를 올려놓으면 자세한 도움말이 툴팁으로 표시됩니다.
+11	12	PetInfoDlg	주인	<주인>	null	null	center	null	null	24	101	119	15
+12	3	PetInfoDlg	주인	환수의 소유주
+13	12	PetInfoDlg	진등	<진화등급>	null	null	center	null	null	175	101	90	15
+14	3	PetInfoDlg	진등	예) 유체=1, 강아지=2, 백구=3
+15	12	PetInfoDlg	체마	<체력/마력>	null	null	center	null	null	24	164	241	33
+16	3	PetInfoDlg	체마	명령 -> 치유 를 사용하여 회복 가능.
+17	12	PetInfoDlg	경험치	<경험치>	null	null	center	null	null	24	144	241	15
+18	3	PetInfoDlg	경험치	(획득 경험치 / 레벨업에 필요한 경험치)
+19	3	PetInfoDlg	경험치	환수 경험치는 소환돼있는 상태에서 자연적으로 획득되며,
+20	3	PetInfoDlg	경험치	사냥을 통해 추가 획득이 가능합니다.
+21	12	PetInfoDlg	행동력	<행동력>	null	null	center	null	null	24	125	241	15
+22	3	PetInfoDlg	행동력	환수의 모든 행동을 가능하게 해주는 능력.
+23	3	PetInfoDlg	행동력	0이 되면 소환 해제.
+24	3	PetInfoDlg	행동력	300 미만인 상태에서는 소환 불가.
+25	3	PetInfoDlg	행동력	소환중에 저절로 감소. 감소 수치는 속도에 따라 상이.
+26	3	PetInfoDlg	행동력	이동/전투/명령 등 다른 행위를 하면 행동력 추가 소모.
+27	3	PetInfoDlg	행동력	캐시아이템 환수행동력의노래를 사용하여 회복 가능.
+32	12	PetInfoDlg	상태	<상태>	null	null	center	null	null	18	221	96	15
+33	3	PetInfoDlg	상태	환수의 현재 상태를 표시
+34	3	PetInfoDlg	상태	대기: 소환 가능.
+35	3	PetInfoDlg	상태	소환: 소환중.
+36	3	PetInfoDlg	상태	휴면: 행동력 부족으로 소환 불가 상태. 캐시아이템 [환수행동력의노래]로 회복 가능.
+37	3	PetInfoDlg	상태	사망: 소환 불가. [환수 리스트 -> 우클릭 -> 부활]에서 부활까지 남은 시간 확인 가능.
+38	3	PetInfoDlg	상태	진화: 진화중. 소환 불가. [환수 진화창]에서 진화 정보 확인 가능.
+39	12	PetInfoDlg	레벨	<레벨>	null	null	center	null	null	23	252	84	15
+40	3	PetInfoDlg	레벨	필요 경험치를 달성하면 1씩 상승.
+41	3	PetInfoDlg	레벨	1 레벨 상승시 잠재력 1 획득.
+42	3	PetInfoDlg	레벨	일반적으로 5 레벨마다 전위력 획득. 획득량은 환수에 따라 상이.
+43	12	PetInfoDlg	공격력	<공격력>	null	null	center	null	null	23	271	84	15
+44	3	PetInfoDlg	공격력	환수별로 다른 값을 가진다.
+45	3	PetInfoDlg	공격력	힘이 높으면 공격력 상승.(상승 정도는 환수별로 다르다.)
+46	12	PetInfoDlg	방어력	<방어력>	null	null	center	null	null	23	290	84	15
+47	3	PetInfoDlg	방어력	환수별로 다른 값을 가진다.
+48	3	PetInfoDlg	방어력	민첩이 높으면 방어력 상승.(상승 정도는 환수별로 다르다.)
+49	12	PetInfoDlg	마방력	<마법방어력>	null	null	center	null	null	23	309	84	15
+50	3	PetInfoDlg	마방력	마법 회피 능력.
+51	3	PetInfoDlg	마방력	지력이 높으면 마방력 상승.(상승 정도는 환수별로 다르다.)
+52	12	PetInfoDlg	속도	<속도>	null	null	center	null	null	23	328	84	15
+53	3	PetInfoDlg	속도	이 수치가 높을수록 같은 시간에 더 많은 행위 가능.
+54	12	PetInfoDlg	힘	<힘>	null	null	center	null	null	136	227	101	15
+55	3	PetInfoDlg	힘	공격력을 상승시킨다.
+56	3	PetInfoDlg	힘	(+  ) 안의 숫자는 캐시템 [추가잠재력의비약]을 사용하여 얻을 수 있는 추가잠재력을 분배하여 올려진 수치를 의미.
+57	3	PetInfoDlg	힘	(+  ) 좌측의 숫자는 (본래 힘 + 추가 힘) -> 즉, 실제로 발휘되는 최종 능력치를 의미.
+58	12	PetInfoDlg	민첩	<민첩>	null	null	center	null	null	136	246	101	15
+59	3	PetInfoDlg	민첩	방어력을 상승시킨다.
+60	3	PetInfoDlg	민첩	(+  ) 안의 숫자는 캐시템 [추가잠재력의비약]을 사용하여 얻을 수 있는 추가잠재력을 분배하여 올려진 수치를 의미.
+61	3	PetInfoDlg	민첩	(+  ) 좌측의 숫자는 (본래 민첩 + 추가 민첩) -> 즉, 실제로 발휘되는 최종 능력치를 의미.
+62	12	PetInfoDlg	지력	<지력>	null	null	center	null	null	136	265	101	15
+63	3	PetInfoDlg	지력	마방력을 상승시킨다.
+64	3	PetInfoDlg	지력	(+  ) 안의 숫자는 캐시템 [추가잠재력의비약]을 사용하여 얻을 수 있는 추가잠재력을 분배하여 올려진 수치를 의미.
+65	3	PetInfoDlg	지력	(+  ) 좌측의 숫자는 (본래 지력 + 추가 지력) -> 즉, 실제로 발휘되는 최종 능력치를 의미.
+66	12	PetInfoDlg	건강	<건강>	null	null	center	null	null	136	284	101	15
+67	3	PetInfoDlg	건강	체력을 상승시킨다.
+68	3	PetInfoDlg	건강	(+  ) 안의 숫자는 캐시템 [추가잠재력의비약]을 사용하여 얻을 수 있는 추가잠재력을 분배하여 올려진 수치를 의미.
+69	3	PetInfoDlg	건강	(+  ) 좌측의 숫자는 (본래 건강 + 추가 건강) -> 즉, 실제로 발휘되는 최종 능력치를 의미.
+70	12	PetInfoDlg	지혜	<지혜>	null	null	center	null	null	136	303	101	15
+71	3	PetInfoDlg	지혜	마력을 상승시킨다.
+72	3	PetInfoDlg	지혜	(+  ) 안의 숫자는 캐시템 [추가잠재력의비약]을 사용하여 얻을 수 있는 추가잠재력을 분배하여 올려진 수치를 의미.
+73	3	PetInfoDlg	지혜	(+  ) 좌측의 숫자는 (본래 지혜 + 추가 지혜) -> 즉, 실제로 발휘되는 최종 능력치를 의미.
+74	12	PetInfoDlg	잠재력	<잠재력>	null	null	center	null	null	136	334	101	15
+75	3	PetInfoDlg	잠재력	위의 [+] 버튼을 사용하여, (힘/민첩/지력/건강/지혜)에 분배할 수 있다.
+76	3	PetInfoDlg	잠재력	캐시템 [환수재분배비서]를 사용하여, 재분배 가능.
+77	3	PetInfoDlg	잠재력	(+  ) 안의 숫자는 캐시템 [추가잠재력의비약]을 사용하여 얻을 수 있는 추가잠재력.
+78	3	PetInfoDlg	잠재력	(+  ) 좌측의 숫자는 (본래 잠재력 + 추가 잠재력) -> 즉, 힘민지건혜에 분배할 수 있는 잠재력 총 합
+79	3	PetInfoDlg	잠재력	여기서, 본래 잠재력은 환수 레벨업을 통해 1씩 얻을 수 있다.
+80	12	PetInfoDlg	기술명	<환수 기술>	null	null	center	null	null	338	51	60	18
+81	3	PetInfoDlg	기술명	환수가 소환된 상태에서만 표시. 기술 사용 단축키: (.)
+82	3	PetInfoDlg	기술명	[기술연마] 버튼을 클릭하면, 기술 습득 및 향상 가능.
+83	12	PetInfoDlg	키	<기술 단축키>	null	null	center	null	null	433	51	20	18
+84	3	PetInfoDlg	키	단축키 변경법: 숫자를 클릭한 뒤 원하는 숫자를 입력.
+85	3	PetInfoDlg	키	환수를 소환한 뒤 단축키 (.) 를 사용하면 볼 수 있는 기술 리스트에서,
+86	3	PetInfoDlg	키	여기에서 설정한 단축키를 사용하면 더 신속한 환수 마법 사용 가능.
+87	16	PetInfoDlg	+	<능력치 상승>	null	null	center	null	null	256	226	15	94	256	320	null	top
+88	3	PetInfoDlg	+	잠재력을 분배하여 각 능력치(힘민지건혜)를 올릴 수 있다.
+89	3	PetInfoDlg	+	캐시아이템 [잠재력재분배비서]를 사용하여 재분배 가능.
+90	3	PetInfoDlg	+	  ((잠재력 분배 조건))
+91	3	PetInfoDlg	+	조건1. 각 능력치(힘민지건혜)는 최대 150까지 상승 가능.
+92	3	PetInfoDlg	+	조건2. 본래 능력치 총합보다 추가 능력치 총합이 커질 수 없다.
+93	3	PetInfoDlg	+	      본래 능력치란? 레벨업으로 획득한 잠재력을 분배하여 올린 능력치.
+94	3	PetInfoDlg	+	                     본래 능력치는 진화시 소멸된다.
+95	3	PetInfoDlg	+	      추가 능력치란? 캐시아이템 추가잠재력의비약으로 얻은 추가잠재력을 분배하여 올린 능력치.
+96	3	PetInfoDlg	+	                     추가 능력치는 진화시 추가잠재력으로 환원된다.
+100	12	PetEvolveDlg	정보	<진화 정보>	null	null	center	null	null	24	360	60	15
+101	3	PetEvolveDlg	정보	현재 진화중인 환수 정보 표시. 환수는 최대 20마리까지 소유 가능.
+102	12	PetEvolveDlg	상태	<진화 상태>	null	null	center	null	null	94	360	45	15
+103	3	PetEvolveDlg	상태	진화중: 진화가 진행중.
+104	3	PetEvolveDlg	상태	멈춤: 일시적으로 정지된 상태. [계속] 버튼을 클릭하여 다시 진행 가능.
+105	12	PetEvolveDlg	진중환	<진화중인 환수>	null	null	center	null	null	145	360	108	15
+106	3	PetEvolveDlg	진중환	현재 진화가 진행중인 환수 명칭
+107	12	PetEvolveDlg	목표환	<진화 목표 환수>	null	null	center	null	null	272	360	108	15
+108	3	PetEvolveDlg	목표환	진화가 완료되면 이 환수가 된다.
+109	12	PetEvolveDlg	잔여시	<남은 시간>	null	null	center	null	null	409	360	135	15
+110	3	PetEvolveDlg	잔여시	진화 완료까지 남은 시간.
+111	12	PetEvolveDlg	멈춤	<멈춤/계속 버튼>	null	null	center	null	null	557	360	32	15
+112	3	PetEvolveDlg	멈춤	멈춤: 진화를 일시적으로 멈춤 상태가 되고, 진화도구는 장착 해제된다.
+113	3	PetEvolveDlg	멈춤	계속: 멈추었던 진화를 이어서 진행시킬 수 있다.
+114	12	PetEvolveDlg	취소	<진화 취소>	null	null	center	null	null	596	360	32	15
+115	3	PetEvolveDlg	취소	진화 포기. 진화도구는 장착 해제된다.
+116	12	PetEvolveDlg	현재환	<현재 환수>	null	null	center	null	null	21	395	127	42
+117	3	PetEvolveDlg	현재환	당신이 소유하고 있는 환수. 진화를 시작하면 진화중인 환수가 된다.
+118	12	PetEvolveDlg	선택환	<선택 환수>	null	null	center	null	null	21	479	127	42
+119	3	PetEvolveDlg	선택환	진화 트리에서 클릭하여 선택한 환수. 진화를 시작하면 진화 목표 환수가 된다.
+120	12	PetEvolveDlg	조건	<진화 조건>	null	null	center	null	null	417	393	92	25
+121	3	PetEvolveDlg	조건	[현재 환수 -> 선택 환수] 로의 진화를 위해선 다음 4가지 조건이 모두만족되어야 한다.
+122	3	PetEvolveDlg	조건	1. 진화 트리상에서 [현재 환수 -> 선택 환수] 로 연결된 상태. 예) [강아지 -> 백구]
+123	3	PetEvolveDlg	조건	2. 현재 환수 능력치 조건 모두 만족
+124	3	PetEvolveDlg	조건	3. 주인 능력치 조건 모두 만족
+125	3	PetEvolveDlg	조건	4. 진화도구 보유
+126	12	PetEvolveDlg	현환조	<진화조건: 현재 환수>	null	null	center	null	null	295	425	158	79
+127	3	PetEvolveDlg	현환조	현재 환수의 능력치가 이 조건들을 맞족하지 못하면 선택 환수로의 진화 불가능.
+128	3	PetEvolveDlg	현환조	만족된 능력치는 파란 글씨로, 부족한 능력치는 붉은 글씨로 표시.
+129	12	PetEvolveDlg	주인조	<진화조건: 주인>	null	null	center	null	null	473	425	158	79
+130	3	PetEvolveDlg	주인조	당신의 능력치가 이 조건들을 만족하지 못하면 선택 환수로의 진화 불가능.
+131	3	PetEvolveDlg	주인조	만족된 능력치는 파란 글씨로, 부족한 능력치는 붉은 글씨로 표시.
+132	3	PetEvolveDlg	주인조	최대체력/마력 조건은 둘 중 하나만 만족되면 통과.
+133	12	PetEvolveDlg	도구	<진화도구>	null	null	center	null	null	294	525	265	15
+134	3	PetEvolveDlg	도구	진화도구가 없으면 선택 환수로의 진화 불가능.
+150	16	PetSpellEvolveDlg	트리	<기술연마 트리>	null	null	center	null	null	23	72	630	244	null	316	center	top
+151	3	PetSpellEvolveDlg	트리	선택된 환수의 기술 향상/습득 트리를 보여준다.
+152	3	PetSpellEvolveDlg	트리	기술명 아래에 표시되는 (A/B)에서,
+153	3	PetSpellEvolveDlg	트리	A는 기술 향상의 현재 달성 단계를, B는 기술 향상의 최고 단계를 의미.
+154	12	PetSpellEvolveDlg	계열	<기술 계열 탭>	null	null	center	null	null	21	49	147	20
+155	3	PetSpellEvolveDlg	계열	탭을 선택하면 그 계열에 해당되는 기술연마 트리를 볼 수 있다.
+156	3	PetSpellEvolveDlg	계열	( ) 안에 표시된 숫자는 해당 계열에 투자된 전위력 포인트를 의미.
+157	16	PetSpellEvolveDlg	전위력	<전위력 정보>	null	null	center	null	null	180	351	80	120	null	471	center	top
+158	3	PetSpellEvolveDlg	전위력	총 전위력 = 발현 전위력 + 잠재 전위력. 즉, 지금까지 획득한 전위력 총 합.
+159	3	PetSpellEvolveDlg	전위력	발현 전위력: 획득한 총 전위력 중 기술연마를 위해 투자된 포인트.
+160	3	PetSpellEvolveDlg	전위력	잠재 전위력: 획득한 총 전위력 중 기술연마를 위해 투자하고 남은 수치.
+161	3	PetSpellEvolveDlg	전위력	             잠재 전위력을 사용하여 새로운 기술을 습득하거나 향상시킬 수 있다.
+162	3	PetSpellEvolveDlg	전위력	계열 전위력: 발현 전위력 중 현재 계열에 투자된 포인트.
+163	12	PetSpellEvolveDlg	조건	<기술 습득/향상 조건>	null	null	center	null	null	421	332	109	23
+164	3	PetSpellEvolveDlg	조건	트리에서 선택된 기술이 이미 습득한 기술이면 향상 조건이,
+165	3	PetSpellEvolveDlg	조건	그렇지 않으면 습득 조건이 표시된다.
+166	3	PetSpellEvolveDlg	조건	만족된 능력치는 파란 글씨로, 부족한 능력치는 붉은 글씨로 표시.
+167	12	PetSpellEvolveDlg	기술명	<보유 기술>	null	null	center	null	null	294	371	166	15
+168	3	PetSpellEvolveDlg	기술명	선택된 기술을 습득/향상시키기 위해 환수가 이미 보유하고 있어야 하는 기술
+169	12	PetSpellEvolveDlg	달성	<달성 단계>	null	null	center	null	null	294	395	166	15
+170	3	PetSpellEvolveDlg	달성	선택된 기술을 습득/향상시키려면, 보유 기술이 이 단계 이상이어야 한다.
+171	12	PetSpellEvolveDlg	계열전	<계열 전위력 조건>	null	null	center	null	null	294	419	107	15
+172	3	PetSpellEvolveDlg	계열전	선택된 기술을 습득/향상시키려면, 계열 전위력이 이 수치 이상이어야 한다.
+173	16	PetSpellEvolveDlg	능력조	<환수 능력치 조건>	null	null	center	null	null	485	362	158	82	null	444	center	top
+174	3	PetSpellEvolveDlg	능력조	선택된 기술을 습득/향상하려면, 환수 능력치가 이 조건들을 모두 만족해야 한다.
+175	12	PetSpellEvolveDlg	기타	<기타 정보>	null	null	center	null	null	285	465	286	15
+176	3	PetSpellEvolveDlg	기타	다음 정보들이 여기에 표시된다.
+177	3	PetSpellEvolveDlg	기타	1. 기술 습득/향상시 소모될 전위력 수치
+178	3	PetSpellEvolveDlg	기타	2. 기술 습득시 기존 기술이 소멸될지의 여부
+179	3	PetSpellEvolveDlg	기타	3. 기타 기술 습득/향상 관련 정보

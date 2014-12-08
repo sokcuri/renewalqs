@@ -1,0 +1,7 @@
+npcspawn	주모	주막연실이네	6	7	3	1
+;npcspawn	npc이름	맵이름		x	y	side	pursuit
+npcspawn	낙랑	낙랑의방	10	8	2	-	
+npcspawn	선후	신선 선후	5	6	2	-
+npcspawn	처연	현자 처연	5	6	2	-
+npcspawn	예백	검성 예백	5	6	2	-
+npcspawn	마서	태성 마서	5	6	2	-
